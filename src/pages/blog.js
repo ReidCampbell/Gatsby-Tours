@@ -1,14 +1,9 @@
-import React, { Component } from "react"
+import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/Layout"
 
-class blog extends Component {
-  render() {
-    return (
-      <>
-        <Layout>blog</Layout>
-      </>
-    )
-  }
+const blog = () => {
+  return <Layout></Layout>
 }
 
 export default blog
