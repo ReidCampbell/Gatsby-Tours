@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
@@ -15,9 +15,16 @@ export default ({ data }) => (
         title="Explore the world fast"
         info="Incididunt fugiat do cillum consectetur proident id dolor pariatur. Ea ea id non nisi consequat. Id minim non ipsum incididunt amet adipisicing ea culpa ullamco qui amet do occaecat."
       >
-        <Link to="/tours" className="btn-white">
+        <AniLink
+          cover
+          direction="right"
+          duration={1}
+          bg="#663399"
+          to="/tours"
+          className="btn-white"
+        >
           explore tours
-        </Link>
+        </AniLink>
       </Banner>
     </StyledHero>
     <About />
