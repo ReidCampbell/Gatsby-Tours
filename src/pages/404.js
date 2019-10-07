@@ -12,7 +12,7 @@ const PageNotFound = () => {
         <Banner title="oops it's a dead end">
           <AniLink
             cover
-            direction="right"
+            direction="up"
             duration={1}
             bg="#663399"
             to="/"

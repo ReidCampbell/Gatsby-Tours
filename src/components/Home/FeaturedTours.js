@@ -42,10 +42,10 @@ const FeaturedTours = () => {
       </div>
       <AniLink
         cover
-        direction="right"
+        direction="up"
         duration={1}
         bg="#663399"
-        to="/"
+        to="/tours"
         className="btn-primary"
       >
         all tours
