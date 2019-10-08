@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins");
 
 :root {
   --primaryColor: #663399;
@@ -9,8 +9,8 @@
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: -1px 4px 28px -6px rgba(0, 0, 0, 0.66);
+  --darkShadow: -1px 4px 33px 0px rgba(0, 0, 0, 0.87);
 }
 
 * {
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.4;
