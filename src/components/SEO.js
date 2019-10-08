@@ -29,16 +29,19 @@ const SEO = ({ title, description }) => {
 
   return (
     <Helmet htmlAttributes={{ lang: "en" }} title={`${title} | ${siteTitle}`}>
-      <meta name="description" content="Travel website build with GatsbyJS" />
+      <meta name="description" content="Travel website built with GatsbyJS" />
       <meta name="image" content={image} />
       <meta name="author" content={author} />
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:title" content={siteTitle} />
       <meta
         name="twitter:description"
         content="Travel website build with GatsbyJS"
       />
-      <meta name="twitter:username" content={twitterUsername} />
       <meta name="twitter:image" content={`${siteUrl}${image}`} />
+
       <meta property="og:url" content={siteUrl} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={siteTitle} />
