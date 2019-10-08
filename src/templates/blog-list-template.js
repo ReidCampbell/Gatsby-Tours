@@ -6,6 +6,7 @@ import Layout from "../components/Layout"
 import styles from "../css/blog.module.css"
 import BlogCard from "../components/Blog/BlogCard"
 import Title from "../components/Title"
+import SEO from "../components/SEO"
 
 const Blogs = props => {
   const { currentPage, numPages } = props.pageContext
@@ -20,6 +21,7 @@ const Blogs = props => {
 
   return (
     <Layout>
+      <SEO title="Blogs" />
       <section className={styles.blog}>
         <Title title="latest" subtitle="posts" />
         <div className={styles.center}>

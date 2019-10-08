@@ -8,9 +8,11 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import FeaturedTours from "../components/Home/FeaturedTours"
+import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home" />
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="Fast in every way that matters"

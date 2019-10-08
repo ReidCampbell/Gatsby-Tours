@@ -5,12 +5,11 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Gatsby Tours",
-    description: "Explore the world fast, in every way that matters",
+    description: "Travel website build with GatsbyJS",
     author: "Reid Campbell",
-    data: {
-      name: "Reid",
-      age: 29,
-    },
+    twitterUsername: "@reidscottcampbell",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://gatsbytours.netlify.com",
   },
   plugins: [
     {
