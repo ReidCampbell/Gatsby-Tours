@@ -19,6 +19,7 @@
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  padding-bottom: 0.09rem;
 }
 .service h4 {
   text-transform: uppercase;
