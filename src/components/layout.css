@@ -9,7 +9,7 @@
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
-  --lightShadow: -1px 4px 28px -6px rgba(0, 0, 0, 0.66);
+  --lightShadow: -2px 9px 63px -22px rgba(0, 0, 0, 0.63);
   --darkShadow: -1px 4px 33px 0px rgba(0, 0, 0, 0.87);
 }
 
@@ -80,4 +80,12 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
