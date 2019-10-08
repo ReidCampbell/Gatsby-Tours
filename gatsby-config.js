@@ -19,10 +19,19 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://gatsbytours.netlify.com",
+        sitemap: "https://gatsbytours.netlify.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
