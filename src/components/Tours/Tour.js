@@ -14,7 +14,13 @@ const Tour = ({ tour }) => {
     <article className={styles.tour}>
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt="single tour" />
-        <AniLink fade className={styles.link} to={`/tours/${slug}`}>
+        <AniLink
+          paintDrip
+          hex="#663399"
+          duration={0.7}
+          className={styles.link}
+          to={`/tours/${slug}`}
+        >
           details
         </AniLink>
       </div>

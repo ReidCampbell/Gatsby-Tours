@@ -13,12 +13,12 @@ export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
-        title="Explore the world fast"
+        title="Fast in every way that matters"
         info="Incididunt fugiat do cillum consectetur proident id dolor pariatur. Ea ea id non nisi consequat. Id minim non ipsum incididunt amet adipisicing ea culpa ullamco qui amet do occaecat."
       >
         <AniLink
           cover
-          direction="right"
+          direction="up"
           duration={1}
           bg="#663399"
           to="/tours"
