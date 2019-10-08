@@ -7,9 +7,13 @@ export default [
     path: "/tours",
     text: "tours",
   },
+  // {
+  //   path: "/blog",
+  //   text: "blog",
+  // },
   {
-    path: "/blog",
-    text: "blog",
+    path: "/blogs",
+    text: "blogs",
   },
   {
     path: "/contact",
