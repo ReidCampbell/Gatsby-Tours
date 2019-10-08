@@ -7,7 +7,7 @@ module.exports = {
     title: "Gatsby Tours",
     description: "Travel website build with GatsbyJS",
     author: "Reid Campbell",
-    twitterUsername: "@reidscottcampbell",
+    twitterUsername: "@reidscampbell",
     image: "/defaultBcg.jpeg",
     siteUrl: "https://gatsbytours.netlify.com",
   },
